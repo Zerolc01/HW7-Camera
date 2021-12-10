@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/set_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:hint="在这里输入文件的名字"
+        android:background="@color/yellow"
+        />
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="0dp"
+        android:layout_weight="6"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/intro_text"
+        android:layout_weight="1"
+        android:textSize="8dp"
+        android:layout_margin="15dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:hint="这里有图片的信息"
+        android:background="@color/colorAccent"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
+
+        <ImageButton
+            android:id="@+id/change_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/change_button"
+            android:layout_marginRight="60dp"
+
+            />
+
+        <ImageButton
+            android:id="@+id/record_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/record_button"
+            />
+
+        <ImageView
+            android:id="@+id/view_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="60dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
