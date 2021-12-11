@@ -10,4 +10,4 @@ The app is like this screenshot:
 
 ![avatar](https://github.com/Zerolc01/HW7-Camera/blob/master/demo.jpg)
 
-*LinChong, Autumn 2021.*
+*LinChong, Winter 2021.*
